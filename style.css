@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #1f2937;
+    padding: 1em 13em;
+}
+
+.nav{
+    display: flex;
+    font-weight: 900;
+    color: white;
+    margin: 30px;
+
+}
+
+.nav a{
+    text-decoration: none;
+    color: inherit;
+    cursor: default; /* Change cursor to default */
+}
+
+.nav_logo{
+    margin-right: auto;
+    font-size: 24px;
+}
+
+.nav ul{
+    display: flex;
+    align-items: baseline;
+    list-style-type: none;
+    gap: 1.5em;
+    text-decoration: none;
+    color: inherit;
+}
+
+.welcome{
+    display: flex;
+    align-items: center;
+}
+
+.welcome .right{
+    display: flex;
+    width: 60%;
+    justify-content: flex-end;
+}
+
+.right img{
+    width: 60%;
+}
+
+.welcome .left{
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome .left h1,p{
+    color: white;
+    margin: 0 0 30px 0;
+    align-items: center;
+}
+
+.welcome .left p{
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome .left button{
+    margin: 30px;
+    justify-content: center;
+    padding: 7px 1em;
+    width: 120px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 13em;
+    margin-top: 3em;
+}
+
+.mid_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: wrap;
+    margin: 3em 0 6em 0;
+    
+}
+
+.mid_container .midimg{
+
+ 
+ 
+    width: 50%;
+    height: 50%;
+
+}
+
+.quote{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 7em 13em;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    background-color: #1f2937;
+
+}
+
+footer .foot{
+    display: flex;
+    color: white;
+    border: 5px;
+    padding: 5px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    width: 50%;
+    border-radius: 10px;
+
+}

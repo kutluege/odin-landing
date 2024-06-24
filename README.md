@@ -1,0 +1,1 @@
+This project can be a basis for you to create landing pages. Made in the light of the Odin Exercises.
